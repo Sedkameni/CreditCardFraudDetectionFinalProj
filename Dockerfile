@@ -28,6 +28,7 @@ COPY --from=builder /install /usr/local
 # Copy application code
 COPY src/ ./src/
 COPY config/ ./config/
+COPY models/ ./models/ 
 
 # Create directories expected at runtime
 RUN mkdir -p /app/models /app/data/processed /app/monitoring/reports
