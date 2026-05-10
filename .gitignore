@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# Data & models
+data/raw/
+data/processed/
+models/*.joblib
+mlruns/
+monitoring/reports/
+
+# Secrets & env
+.env
+config/config.yaml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Docker
+*.tar
+
+# OS
+.DS_Store
+Thumbs.db
